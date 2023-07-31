@@ -1,0 +1,7 @@
+= Evernote API Spring Boot Application
+
+This application is for a joint project with https://github.com/jalakoo[Jason Koo^] to import note app data into the Neo4j graph database for analysis.
+
+This initial project step uses the Evernote API and converts the Java SDK code into a Spring Boot app. To start, only the `listNotes()` method from the https://github.com/Evernote/evernote-sdk-java/blob/master/sample/client/EDAMDemo.java[original sample code^] has been implemented.
+
+Future versions of this application should include retrieving note contents, translating them, and import them into Neo4j.
