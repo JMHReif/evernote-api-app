@@ -5,3 +5,7 @@ This application is for a joint project with https://github.com/jalakoo[Jason Ko
 This initial project step uses the Evernote API and converts the Java SDK code into a Spring Boot app. To start, only the `listNotes()` method from the https://github.com/Evernote/evernote-sdk-java/blob/master/sample/client/EDAMDemo.java[original sample code^] has been implemented.
 
 Future versions of this application should include retrieving note contents, translating them, and import them into Neo4j.
+
+== Content
+
+* Blog post: https://jmhreif.com/blog/evernote-api-app/[How to Create a Spring Boot Application to Retrieve Data from Evernote^]
